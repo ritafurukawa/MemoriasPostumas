@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color:white
+    background-color:rgba(213, 209, 209, 0.475);
     width: 100vw;
     height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
 }
 
 .flex-container {
@@ -18,6 +27,55 @@ body {
     justify-content: flex-start;
     align-items: center;
 
+}
+
+.navbar {
+    background-color: rgb(243, 249, 130);
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar button{
+    background-color:  rgb(243, 249, 130);
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
+}
+.navbar a{
+    background-color:  rgb(243, 249, 130);
+    height: 100%;
+    width: 16.6%;
+    border: none;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
+}
+
+.navbar button:hover {
+    background-color:#06327D;
+    color: white;
+}
+.navbar a:hover {
+    background-color: #06327D;
+    color: white;
+}
+
+
+footer {
+    width: 100%;
+    height: 7%;
+    background-color:  rgb(243, 249, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: flex-end;
+    position: absolute;
+    bottom: 0px;
 }
 
 
