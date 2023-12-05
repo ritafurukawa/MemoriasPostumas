@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -67,8 +68,39 @@ body {
 .main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
 }
+
+.div-img {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.div-texto {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    font-size: large;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Glass Antiqua', cursive;
+
+}
+
+.citacao {
+    margin-bottom: 20px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+
 
 
 footer {
@@ -82,6 +114,8 @@ footer {
     justify-self: flex-end;
     position: absolute;
     bottom: 0px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
 }
 
 
