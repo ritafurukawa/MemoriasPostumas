@@ -30,6 +30,17 @@ body {
 
 }
 
+.flex-container2 {
+    background: url(utfpr.png);
+    flex-direction: row;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
 .navbar {
     background-color: rgb(243, 249, 130);
     width: 100%;
@@ -79,12 +90,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 40%;
 }
 
 .div-texto {
     display: flex;
-    width: 50%;
+    width: 60%;
     justify-content: center;
     font-size: large;
     text-align: justify;
