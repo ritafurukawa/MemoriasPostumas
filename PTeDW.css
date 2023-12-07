@@ -93,27 +93,9 @@ body {
     width: 40%;
 }
 
-.div-img1 {
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 50%;
-    padding: 50px;
-}
 
-.div-texto1 {
-    display: flex;
-    width: 60%;
-    justify-content: center;
-    font-size: large;
-    text-align: justify;
-    flex-direction: column;
-    font-family: 'Glass Antiqua', cursive;
 
-}
+
 .div-texto {
     display: flex;
     width: 60%;
@@ -132,12 +114,7 @@ body {
 
 }
 
-.titulo1 {
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-align: center;
-    font-size: x-large;
-}
+
 
 
 

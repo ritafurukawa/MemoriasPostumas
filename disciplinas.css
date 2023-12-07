@@ -93,7 +93,7 @@ body {
     width: 300px; 
     height: 300px; 
     border-radius: 100%;
-    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -112,6 +112,7 @@ body {
     width: 300px; 
     height: 300px; 
     border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -168,6 +169,7 @@ footer {
     bottom: 0px;
     font-family: 'Glass Antiqua', cursive;
     font-size: large;
+    position: fixed;
 }
 
 ::-webkit-scrollbar {
