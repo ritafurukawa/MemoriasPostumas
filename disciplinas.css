@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(213, 209, 209, 0.475);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+.flex-container2 {
+    background: url(utfpr.png);
+    flex-direction: row;
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: rgb(243, 249, 130);
+    width: 100%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar button{
+    background-color:  rgb(243, 249, 130);
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
+}
+.navbar a{
+    background-color:  rgb(243, 249, 130);
+    height: 100%;
+    width: 16.6%;
+    border: none;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
+}
+
+.navbar button:hover {
+    background-color:#06327D;
+    color: white;
+}
+.navbar a:hover {
+    background-color: #06327D;
+    color: white;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 30px;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+
+.div-img1 {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.div-img1 img {
+    display: block; 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%;
+    
+}
+
+
+.div-img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+.div-img2 img {
+    display: block; 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 100%;
+    
+}
+
+
+.div-texto1 {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    font-size: large;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Glass Antiqua', cursive;
+
+}
+.div-texto2 {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    font-size: large;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Glass Antiqua', cursive;
+
+}
+
+
+.titulo1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+
+.titulo2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 7%;
+    background-color:  rgb(243, 249, 130);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: flex-end;
+    position: absolute;
+    bottom: 0px;
+    font-family: 'Glass Antiqua', cursive;
+    font-size: large;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #06327D; 
+    border-radius: 6px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; 
+}
+
+
+
+
+
+
+
