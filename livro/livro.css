@@ -24,7 +24,7 @@ body {
     background: url(../imagens/Memó.png);
     flex-direction: row;
     display: flex;
-    height: 20%;
+    height: 57%;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 .navbar {
     background-color: rgb(243, 249, 130);
     width: 100%;
-    height: 122.7px;
+    height: 170px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -90,8 +90,8 @@ body {
 
 .div-img1 img {
     display: block; 
-    width: 350px;
-    height: 400px; 
+    width: 300px;
+    height: 350px; 
     border-radius: 15px; 
     overflow: hidden; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -159,7 +159,7 @@ body {
 .caixa {
     display: flex;
     width: 100%;
-    padding: 20px; 
+    padding: 30px; 
     background-color: #06327D; 
     border: 1px solid #e0e0e0; 
     color: #e0e0e0; 
