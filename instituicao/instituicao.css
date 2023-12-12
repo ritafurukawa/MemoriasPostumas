@@ -21,10 +21,10 @@ body {
 
 
 .flex-container2 {
-    background: url(Memó.png);
+    background: url(../imagens/utfpr.png);
     flex-direction: row;
     display: flex;
-    height: 20%;
+    height: 39%;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
@@ -34,7 +34,7 @@ body {
 .navbar {
     background-color: rgb(243, 249, 130);
     width: 100%;
-    height: 8%;
+    height: 122.7px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -77,63 +77,81 @@ body {
 }
 
 
-.div-img2 {
+.div-img1 {
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding: 35px;
-    border-radius: 100%;
+    width: 35%;
+    padding: 50px;
+    border-radius: 50%;
 }
 
-.div-img2 img {
+.div-img1 img {
     display: block; 
-    width: 600px;
-    height: 400px; 
-    border-radius: 15px; 
-    align-items: center;
-    overflow: hidden; 
+    width: 400px; 
+    height: 300px; 
+    border-radius: 100%;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
 }
 
 
-
-.div-texto2 {
+.div-img2 {
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 50px;
+    border-radius: 100%;
+}
+
+.div-img2 img {
+    display: block; 
+    width: 400px; 
+    height: 300px; 
+    border-radius: 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+
+.div-texto1 {
+    display: flex;
+    width: 65%;
     justify-content: center;
     font-size: large;
     text-align: justify;
     flex-direction: column;
     font-family: 'Glass Antiqua', cursive;
-    padding: 20px;
 
 }
-
-
-
-.titulo2 {
-    margin-bottom: 0px;
-    font-weight: bold;
-    align-items: center;
-    font-size: xx-large;
+.div-texto2 {
     display: flex;
-    width: 100%;
+    width: 65%;
+    justify-content: center;
+    font-size: large;
+    text-align: justify;
     flex-direction: column;
     font-family: 'Glass Antiqua', cursive;
+
 }
 
-.caixa {
-    display: flex;
-    width: 100%;
-    padding: 20px; 
-    align-items: center;
-    background-color: #06327D; 
-    border: 1px solid #e0e0e0; 
-    color: #e0e0e0; 
-    border-radius: 5px; 
+
+.titulo1 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+
+.titulo2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
 }
 
 
@@ -152,6 +170,7 @@ footer {
     bottom: 0px;
     font-family: 'Glass Antiqua', cursive;
     font-size: large;
+    position: fixed;
 }
 
 ::-webkit-scrollbar {
