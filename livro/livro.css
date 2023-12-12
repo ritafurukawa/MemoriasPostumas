@@ -198,6 +198,56 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+    
+
+    body {
+        background-color: #007bff;
+    }
+
+    #inteiro {
+        background-color: rgb(101, 115, 221);
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    /*ajustar o tamanho da imagem e do resumo*/
+
+
+    
+    .caixa{
+        margin-right: 5%;
+        margin-top: 4%;
+    }
+
+    .caixa {
+        font-size: 18px;
+    }
+
+    .caixa {
+        font-size: 10px;
+    }
+
+    .div-img1{
+       display:flex;
+       width:10px;
+       height: 20px;
+       align-items: left;
+    }
+
+    .div-img2{
+        display:flex;
+       width:20px;
+       height: 40px;
+
+    }
+
+
+}
+
+
 
 
 
