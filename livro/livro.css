@@ -24,7 +24,7 @@ body {
     background: url(../imagens/Memó.png);
     flex-direction: row;
     display: flex;
-    height: 57%;
+    height: 55%;
     width: 100%;
     justify-content: flex-start;
     align-items: center;
