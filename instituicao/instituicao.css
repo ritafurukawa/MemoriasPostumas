@@ -187,6 +187,32 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+    
+
+    body {
+        background-color: #007bff;
+    }
+
+    #inteiro {
+        background-color: rgb(101, 115, 221);
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .div-img1{
+        display: none;
+    }
+    .div-img2{
+        display: none;
+    }
+
+
+
+}
+
 
 
 

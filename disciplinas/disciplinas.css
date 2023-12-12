@@ -185,6 +185,25 @@ footer {
     background-color: #f0f0f0; 
 }
 
+@media screen and (max-width: 768px) {
+    
+
+    body {
+        background-color: #007bff;
+    }
+
+    #inteiro {
+        background-color: rgb(101, 115, 221);
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+
+
+}
+
 
 
 
